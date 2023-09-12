@@ -1,0 +1,26 @@
+@media(max-width: 1200px){
+    body{
+        background-image: url(../images/bg-mobile.svg);
+    }
+
+    .container{
+        flex-direction: column;
+    }
+
+    .container .info{
+        align-items: center;
+        text-align: center;
+        margin: 50px 0;
+    }
+
+    footer .social{
+        justify-content: center;
+        margin-right: 0;
+    }
+}
+
+@media(max-width: 576px){
+    header img{
+        width: 100%;
+    }
+}
