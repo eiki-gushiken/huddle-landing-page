@@ -13,14 +13,30 @@
         margin: 50px 0;
     }
 
-    footer .social{
+    footer .social ul{
         justify-content: center;
         margin-right: 0;
     }
 }
 
 @media(max-width: 576px){
+    header {
+        margin: 30px;
+    }
+    
     header img{
-        width: 100%;
+        width: 50%;
+    }
+
+    .container {
+        margin: 0 35px;
+    }
+
+    .container .info h1 {
+        font-size: 22px;
+    }
+
+    .container .info .descricao{
+        font-size: 14px;
     }
 }
