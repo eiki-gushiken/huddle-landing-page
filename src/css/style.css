@@ -54,13 +54,16 @@ header{
     cursor: pointer;
 }
 
-
-footer .social{
+footer .social ul{
     display: flex;
     gap: 15px;
     justify-content: flex-end;
     margin-right: 80px;
     margin-bottom: 30px;
+}
+
+footer .social li{
+    display: flex;
 }
 
 footer .social a{
